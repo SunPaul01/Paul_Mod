@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "paul_mod:item/paulteleporter"
+    "layer0": "paulmod:item/paulteleporter"
   }
 }

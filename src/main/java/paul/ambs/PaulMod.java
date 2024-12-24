@@ -8,8 +8,8 @@ import paul.ambs.Item.ModItemGroups;
 import paul.ambs.Item.ModItems;
 import paul.ambs.World.ModWorlds;
 
-public class Paul_Mod implements ModInitializer {
-	public static final String MOD_ID = "paul_mod";
+public class PaulMod implements ModInitializer {
+	public static final String MOD_ID = "paulmod";
 
 	// This logger is used to write text to the console and the log file.
 	// It is considered best practice to use your mod id as the logger's name.

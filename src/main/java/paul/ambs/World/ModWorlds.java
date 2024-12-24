@@ -1,10 +1,10 @@
 package paul.ambs.World;
 
-import paul.ambs.Paul_Mod;
+import paul.ambs.PaulMod;
 
 public class ModWorlds {
 
     public static void registerModWorlds() {
-        Paul_Mod.LOGGER.info("Register Mod Worlds for " + Paul_Mod.MOD_ID);
+        PaulMod.LOGGER.info("Register Mod Worlds for " + PaulMod.MOD_ID);
     }
 }

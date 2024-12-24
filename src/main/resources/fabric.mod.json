@@ -1,6 +1,6 @@
 {
 	"schemaVersion": 1,
-	"id": "paul_mod",
+	"id": "paulmod",
 	"version": "${version}",
 	"name": "Paul_Mod",
 	"description": "Pauls Mod",
@@ -12,17 +12,17 @@
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/paul_mod/icon.png",
+	"icon": "assets/paulmod/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"paul.ambs.Paul_Mod"
+			"paul.ambs.PaulMod"
 		],
 		"client": [
-			"paul.ambs.Paul_ModClient"
+			"paul.ambs.PaulModClient"
 		],
 		"fabric-datagen": [
-			"paul.ambs.Paul_ModDataGenerator"
+			"paul.ambs.PaulModDataGenerator"
 		]
 	},
 	"mixins": [
