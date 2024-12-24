@@ -4,6 +4,7 @@ import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import paul.ambs.Item.ModItemGroups;
 import paul.ambs.Item.ModItems;
 import paul.ambs.World.ModWorlds;
 
@@ -20,6 +21,7 @@ public class Paul_Mod implements ModInitializer {
 		// This code runs as soon as Minecraft is in a mod-load-ready state.
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
+		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
 		ModWorlds.registerModWorlds();
 		LOGGER.info("Hello Fabric world! ES FUNKTIONIERT WHUHUHUHUHUHUHUHUHUHUHUHU");
