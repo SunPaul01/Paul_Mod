@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "paul_mod",
+	"version": "${version}",
+	"name": "Paul_Mod",
+	"description": "Pauls Mod",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/paul_mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"paul.ambs.Paul_Mod"
+		],
+		"client": [
+			"paul.ambs.Paul_ModClient"
+		],
+		"fabric-datagen": [
+			"paul.ambs.Paul_ModDataGenerator"
+		]
+	},
+	"mixins": [
+		"paul_mod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
